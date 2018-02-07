@@ -1,0 +1,45 @@
+# Welcome to Sonic Pi v2.11.1
+with_fx :flanger do
+  sample :ambi_dark_woosh
+  sleep 1
+end
+with_fx :flanger do
+  sample :loop_safari
+  sleep 1
+end
+with_fx :flanger do
+  sample :loop_tabla
+  sleep 2
+end
+with_fx :flanger do
+  sample :ambi_soft_buzz, rate: 2
+  sleep 2
+end
+live_loop :flanger do
+  sample :tabla_tun3
+  sleep 2
+end
+live_loop :flanger do
+  sample :bd_808
+  sleep 5
+end
+live_loop :fix do
+  sample :bd_boom
+  sleep 1
+end
+with_fx :flanger do
+  sample :sn_zome, rate: 0.25
+  sleep 3
+end
+with_fx :flanger do
+  sample :ambi_dark_woosh
+  sleep 1
+end
+with_fx :flanger do
+  sample :loop_safari
+  sleep 1
+end
+with_fx :flanger do
+  sample :loop_tabla
+  sleep 2
+end
